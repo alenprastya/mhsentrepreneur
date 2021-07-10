@@ -1,0 +1,22 @@
+.baris {
+    text-align: center;
+    margin: 100px auto;
+
+}
+p {
+    font-size: 20px;
+}
+h3 {
+    font-weight: 700;
+}
+img {
+    width: 450px;
+}
+@media(max-width:746px){
+    img {
+        width: 300px;
+    }
+    p{
+        text-align: justify;
+    }
+}

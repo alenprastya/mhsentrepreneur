@@ -1,0 +1,35 @@
+.kartu {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;  
+    background-color: rgb(13, 177, 163);
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kartu:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.images {
+    border-radius: 10px;
+     
+}
+.bi  {
+    font-size: 30px;
+    display: flex;
+    margin-left: auto !important;
+    cursor: pointer;
+    padding: 50px 0px;
+    color: rgb(157, 252, 255);
+}
+@media(max-width:746px){
+    .row {
+        padding: 20px;
+    }
+}

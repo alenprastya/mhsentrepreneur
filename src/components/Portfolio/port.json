@@ -1,0 +1,27 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "img " : "/public/img/1.png",
+      "name" : "alen Prastya"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "img " : "/public/img/2.png",
+      "name" : "alen Prastya"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+  
+}

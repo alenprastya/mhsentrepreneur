@@ -1,0 +1,33 @@
+.jumbotrons {
+    background-color: rgb(13, 177, 163);
+    color: white;
+}
+.row h1 {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    padding: 200px 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    
+}
+p{
+    text-align: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+
+}
+@media(max-width:746px){
+    .image img {
+        margin-top: 100px;
+        margin-bottom: -100px;
+        width: 250px;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+}
