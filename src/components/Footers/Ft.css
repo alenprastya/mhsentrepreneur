@@ -7,6 +7,13 @@ p {
     text-align: left !important;
 }
 
-strong {
-    font-size: 20px;
+
+@media(max-width:768px){
+    strong {
+        font-size: 20px;
+    }
+    .kontak {
+        font-size: 15px;
+    }
+    
 }

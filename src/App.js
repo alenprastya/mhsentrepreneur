@@ -1,20 +1,30 @@
 import Navbars from "./components/Navbars/Navbars";
 import "./App.css";
-import Home from "./components/Home/Home";
-import Layanan from "./components/Layanan/Layanan";
-import Portfolio from "./components/Portfolio/Portfolio";
-// import Footers from "./components/Footers/Footers";
-import Ft from "./components/Footers/Ft";
-// import Ports from "./components/Portfolio/Ports";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams,
+  BrowserRouter,
+} from "react-router-dom";
+import HalamanUtama from "./components/Blog/HalamanUtama/HalamanUtama";
+import HomeWeb from "./components/HomeWeb/HomeWeb";
+import HalamanTotorial from "./components/Blog/Tutorial/HalamanTotorial";
+import Shop from "./components/Blog/Shop/Shop";
 function App() {
   return (
     <div>
-      <Navbars />
-      <Home />
-      <Layanan />
-      <Portfolio />
-      <Ft />
+      <BrowserRouter>
+        <Navbars />
+        <Switch>
+          <Route path="/" component={HomeWeb} exact />
+          <Route path="/halamanutama" component={HalamanUtama} />
+          <Route path="/halamantutorial" component={HalamanTotorial} />
+          <Route path="/shop" component={Shop} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

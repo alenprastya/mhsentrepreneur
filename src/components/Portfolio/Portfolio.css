@@ -2,7 +2,8 @@
     border-radius: 10px;
     text-align: center;
     font-size: 20px;  
-    background-color: rgb(13, 177, 163);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 h1 {
     text-align: center;
@@ -16,17 +17,14 @@ h1 {
     cursor: pointer;
 }
 
-.images {
-    border-radius: 10px;
-     
-}
 .bi  {
     font-size: 30px;
+    font-weight: 700;
     display: flex;
     margin-left: auto !important;
     cursor: pointer;
     padding: 50px 0px;
-    color: rgb(157, 252, 255);
+    color: rgb(0, 247, 255);
 }
 @media(max-width:746px){
     .row {

@@ -16,7 +16,8 @@ img {
     img {
         width: 300px;
     }
-    p{
-        text-align: justify;
+    .layanan{
+        text-align: center !important;
+        font-size: 15px;
     }
 }

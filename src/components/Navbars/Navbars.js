@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { Link as Scroll } from "react-scroll";
 import "./Navbars.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default class Navbars extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      head: "Mahasiswa Enterpreneur",
+      head: "Mahasiswa Entrepreneur",
     };
   }
 
@@ -17,15 +18,20 @@ export default class Navbars extends Component {
       <div id="home">
         <nav className="navbar navbar-expand-lg  navi fixed-top ">
           <div class="container">
-            <Scroll to="home">
+            <Link to="/">
               <a
                 className="navbar-brand"
-                style={{ color: "white", margin: "0" }}
+                style={{
+                  color: "black",
+                  margin: "0",
+                  fontWeight: "700",
+                  fontSize: "25px",
+                }}
                 href="home"
               >
                 {head}
               </a>
-            </Scroll>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -41,20 +47,47 @@ export default class Navbars extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Scroll delay={0} to="layanan">
-                    <button>Layanan</button>
+                    <button style={{ fontWeight: "700", fontSize: "23px" }}>
+                      Layanan
+                    </button>
                   </Scroll>
                 </li>
                 <li className="nav-item">
                   <Scroll to="portfolio">
-                    <button>Portfolio</button>
+                    <button style={{ fontWeight: "700", fontSize: "23px" }}>
+                      Portfolio
+                    </button>
                   </Scroll>
                 </li>
                 <li className="nav-item">
                   <Scroll delay={0} to="kontak">
-                    <button>Kontak</button>
+                    <button style={{ fontWeight: "700", fontSize: "23px" }}>
+                      Kontak
+                    </button>
                   </Scroll>
+                </li> */}
+                <li className="nav-item">
+                  <Link to="/halamanutama">
+                    <button style={{ fontWeight: "700", fontSize: "23px" }}>
+                      Blog
+                    </button>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/halamantutorial">
+                    <button style={{ fontWeight: "700", fontSize: "23px" }}>
+                      Tutorial
+                    </button>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/shop">
+                    <button style={{ fontWeight: "700", fontSize: "23px" }}>
+                      Shop
+                    </button>
+                  </Link>
                 </li>
               </ul>
             </div>

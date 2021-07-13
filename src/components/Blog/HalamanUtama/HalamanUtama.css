@@ -1,0 +1,15 @@
+.carousel-item {
+    height: 400px;
+}
+.d-block {
+    width: 1000px;
+}
+.carousel-inner .carousel-item img {
+    width: 100%;
+}
+@media(max-width:576px){
+    .carousel-inner .carousel-item img {
+        width: 500px;
+        margin-top: 80px;
+    }
+}

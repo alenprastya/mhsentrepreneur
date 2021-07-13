@@ -1,15 +1,15 @@
 .navi {
-    background-color: rgb(13, 177, 163);
+    background-color: rgb(255, 255, 255);
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
 
 }
 .navbar-nav {
     margin-left: auto;
-    color: rgb(177, 177, 177) ;
+    color: rgb(0, 0, 0) ;
 }
 .bar {
-    color: rgb(185, 180, 180);
+    color: rgb(0, 0, 0);
     margin: 0 20px;
     font-size: 15px;
     text-decoration: none;
@@ -20,10 +20,10 @@
 }
 button {
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 6px;
     background-color: transparent;
-    color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
     border-style: none;
 }
 button:hover{
@@ -33,11 +33,22 @@ button:hover{
     }
 @media(max-width:768px){
     button {
-        color: white;
+        color: rgb(0, 0, 0);
         margin: 10px 10px 20px 0;
-        font-size: 20px;
+        font-size: 16px !important;
         text-decoration: none;
+        text-transform: capitalize;
     }
+    .nav-item:hover {
+        background-color: rgb(219, 219, 219);
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    a .navbar-brand {
+        font-size: 22px !important;
+    }
+    
 
 }
 .navbar-toggler-icons {
@@ -50,3 +61,4 @@ button:hover{
       margin-top: 13px;
       padding: 0;
   }
+
