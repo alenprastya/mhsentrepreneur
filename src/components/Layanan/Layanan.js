@@ -44,7 +44,7 @@ export default class Layanan extends Component {
       <div id="layanan">
         <Jumbotron className="jumbotron-keterampilan">
           <div class="container">
-            <h1
+            <h2
               style={{
                 textAlign: "center",
                 marginTop: "100px",
@@ -52,7 +52,7 @@ export default class Layanan extends Component {
               }}
             >
               LAYANAN
-            </h1>
+            </h2>
             <div class="row baris">
               {layanan1.map((layanan1s) => (
                 <div class="col-md-6" data-aos="fade-up">

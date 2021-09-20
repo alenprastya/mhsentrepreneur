@@ -10,20 +10,20 @@ export default class BuahDanSAyur extends Component {
           id: "1",
           judul: "7 Jenis Diet Mudah dan Efektif yang Bisa Kamu Coba",
           tanggal: "Alen Prastya, 12 Juli 2021",
-          image: "https://mdbootstrap.com/img/new/standard/nature/184.jpg",
+          image: "/img/BlogSehat/daunmint.jpeg",
         },
         {
           id: "2",
           judul: "Kandungan, Manfaat, dan Olahan Daun Mint Detoks  Ampuh!",
           tanggal: "Alen Prastya, 12 Juli 2021",
-          image: "https://mdbootstrap.com/img/new/standard/nature/111.jpg",
+          image: "/img/BlogSehat/diet.jpg",
         },
         {
           id: "3",
           judul:
             "Kandungan dan Manfaat Jeruk Nipis, Bisa Turunkan Risiko Kanker!",
           tanggal: "Deril Setiawan, 14 Juli 2021",
-          image: "https://mdbootstrap.com/img/new/standard/nature/182.jpg",
+          image: "/img/BlogSehat/jerukNipis.jpeg",
         },
       ],
     };

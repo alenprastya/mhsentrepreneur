@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./HalamanUtama.css";
 import BuahDanSAyur from "../BuahDanSayur/BuahDanSAyur";
-import { Media } from "react-bootstrap";
 export default class HalamanUtama extends Component {
   render() {
     return (

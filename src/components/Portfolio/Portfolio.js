@@ -3,7 +3,6 @@ import { Jumbotron, Card, Container } from "react-bootstrap";
 import { BrowserRouter } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 import "./Portfolio.css";
-const API = "http://localhost:3004/posts";
 
 export default class Portfolio extends Component {
   constructor(props) {
@@ -50,7 +49,7 @@ export default class Portfolio extends Component {
             <hr />
             <BrowserRouter>
               <Container>
-                <h1 style={{ fontWeight: "700" }}>PORTFOLIO</h1>
+                <h2 style={{ fontWeight: "700" }}>PORTFOLIO</h2>
                 <div className="row mb-5">
                   {port.map((ports) => (
                     <div className="col-sm-4 mb-5" data-aos="fade-up">

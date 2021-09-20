@@ -15,5 +15,18 @@ p {
     .kontak {
         font-size: 15px;
     }
+    iframe {
+        width: 340px !important;
+        height: 80px;
+        margin-top: 20px;
+    }
     
+}
+iframe {
+    width: 400px;
+    height: 240px;
+    margin-top: 20px;
+}
+strong{
+    text-align: center !important;
 }

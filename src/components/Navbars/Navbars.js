@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Link as Scroll } from "react-scroll";
 import "./Navbars.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Navbars extends Component {
   constructor(props) {
@@ -17,9 +16,9 @@ export default class Navbars extends Component {
     return (
       <div id="home">
         <nav className="navbar navbar-expand-lg  navi fixed-top ">
-          <div class="container">
+          <div className="container">
             <Link to="/">
-              <a
+              <button
                 className="navbar-brand"
                 style={{
                   color: "black",
@@ -30,7 +29,7 @@ export default class Navbars extends Component {
                 href="home"
               >
                 {head}
-              </a>
+              </button>
             </Link>
             <button
               className="navbar-toggler"
@@ -41,7 +40,7 @@ export default class Navbars extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icons">
+              <span className="navbar-toggler-icons">
                 <img src="/menu.png" alt="" />
               </span>
             </button>
